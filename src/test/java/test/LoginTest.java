@@ -71,7 +71,7 @@ public class LoginTest extends Base {
 	public void AplicationOpen() throws IOException {
 
 		log = LogManager.getLogger(LoginTest.class.getName());
-	    driver = intializeDriver();
+	    driver = initializeDriver();
 	    log.debug("Browser got launched");
 		driver.get(prop.getProperty("url"));
 		log.debug("Navigated to application URL");
