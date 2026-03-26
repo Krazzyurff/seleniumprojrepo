@@ -5,16 +5,13 @@ public class HomePage {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-   System.out.println("Ashish");
-
-     System.out.println("hero");
-     System.out.println("Don");
-     System.out.println("Don");
-     System.out.println("Don");
-     System.out.println("Don");
-     System.out.println("Ashish");
+		HomePage d = new HomePage();
+		int result = d.addTwoNumbers(5, 10);
+		System.out.println(result);  // Output: 15
      
 	}
    	
-
+	  public int addTwoNumbers(int a, int b) {
+	        return a + b;
+	    }
 }
