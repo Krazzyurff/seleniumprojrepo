@@ -6,6 +6,7 @@ public class HomePage {
 
 		// TODO Auto-generated method stub
 
+
    System.out.println("Ashish");
 
      System.out.println("hero");
@@ -18,9 +19,16 @@ public class HomePage {
 		HomePage d = new HomePage();
 		int result = d.subtractNumbers(10, 4);
 		System.out.println(result);
+		HomePage b = new HomePage();
+		int result1 = b.addTwoNumbers(5, 10);
+		System.out.println(result1); 
 	}
 	  public int subtractNumbers(int a, int b) {
 	        return a - b;
+	    }
+
+	  public int addTwoNumbers(int a, int b) {
+	        return a + b;
 	    }
 
 }
