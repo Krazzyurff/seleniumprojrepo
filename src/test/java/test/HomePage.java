@@ -22,6 +22,13 @@ public class HomePage {
 		HomePage b = new HomePage();
 		int result1 = b.addTwoNumbers(5, 10);
 		System.out.println(result1); 
+		System.out.println(result);  // Output: 6
+	       int a = 5;
+	        int c = 4;
+
+	        int result2 = a * c;
+
+	        System.out.println("Multiplication: " + result);
 	}
 	  public int subtractNumbers(int a, int b) {
 	        return a - b;
