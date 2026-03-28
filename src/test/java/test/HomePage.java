@@ -1,20 +1,9 @@
 package test;
 
 public class HomePage {
-
 	public static void main(String[] args) {
 
-		// TODO Auto-generated method stub
-
-
-   System.out.println("Ashish");
-
-     System.out.println("hero");
-     System.out.println("Don");
-     System.out.println("Don");
-     System.out.println("Don");
-     System.out.println("Don");
-     System.out.println("Ashish");
+		
 
 		HomePage d = new HomePage();
 		int result = d.subtractNumbers(10, 4);
@@ -29,6 +18,9 @@ public class HomePage {
 	        int result2 = a * c;
 
 	        System.out.println("Multiplication: " + result);
+		HomePage e = new HomePage();
+		int result3 = e.subtractNumbers(10, 4);
+		
 	}
 	  public int subtractNumbers(int a, int b) {
 	        return a - b;
@@ -37,5 +29,6 @@ public class HomePage {
 	  public int addTwoNumbers(int a, int b) {
 	        return a + b;
 	    }
+	  
 
 }
